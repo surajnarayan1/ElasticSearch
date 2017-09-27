@@ -8,5 +8,11 @@ namespace Training.Tavisca.ElasticSearchWithLogImplementaion
 {
     class Student
     {
+        public string RegistrationNumber { get; set; }
+        public string Name { get; set; }
+        public string Branch { get; set; }
+        public string Address { get; set; }
+        public string Batch { get; set; }
+
     }
 }
